@@ -8,7 +8,7 @@
 
 ## Features
 
-* **Automated Data Cleaning:** * Handles missing values via median imputation.
+* **Automated Data Cleaning:** Handles missing values via median imputation.
 * Standardizes inconsistent categorical text.
 * Enforces logical bounds (e.g., GPA range, weekly hours).
 * Flags statistical outliers for transparency without deleting valuable extreme-use cases.
