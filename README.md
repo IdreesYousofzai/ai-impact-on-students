@@ -1,3 +1,8 @@
+<img width="1176" height="876" alt="6_scatter_hours_vs_retention" src="https://github.com/user-attachments/assets/4a139d03-7d37-44ac-96ce-8e46fb73cb65" />
+<img width="1158" height="1027" alt="4_heatmap_correlation" src="https://github.com/user-attachments/assets/82ecba5c-1134-45d6-9d80-3cc4cbf66a3a" />
+<img width="1176" height="726" alt="1_bar_gpa_change_by_major" src="https://github.com/user-attachments/assets/38429f5d-e9c4-46c5-92f5-68c5ffb50187" />
+
+
 # README: AI Student Impact Analysis Tool
 
 ## Overview
