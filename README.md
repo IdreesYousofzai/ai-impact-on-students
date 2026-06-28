@@ -2,7 +2,7 @@
 
 ## Overview
 
-**"Is AI a Tutor or a Cheat Code?"** This project provides a professional-grade, robust, and interactive pipeline to clean, analyze, and visualize a dataset of 50,000 student records regarding Generative AI usage, academic performance (GPA), and burnout risks. This tool is designed to move beyond raw data, helping researchers and educators identify whether AI integration correlates with improved learning outcomes or hinders skill retention.
+**"Is AI a Tutor or a Cheat Code?"** This project provides a professional-grade, robust, and interactive pipeline to clean, analyse and visualise a dataset of 50,000 student records regarding Generative AI usage, academic performance (GPA), and burnout risks. This tool is designed to move beyond raw data, helping researchers and educators identify whether AI integration correlates with improved learning outcomes or hinders skill retention.
 
 ---
 
