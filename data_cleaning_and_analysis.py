@@ -1,3 +1,43 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+=============================================================================
+ AI STUDENT IMPACT ANALYSIS TOOL
+ "Is AI a Tutor or a Cheat Code?" - 50,000 Student Records on GenAI Usage
+=============================================================================
+ 
+WHAT THIS SCRIPT DOES
+----------------------
+1. CLEANS the raw CSV  (missing values, column names, data types, duplicates,
+   impossible values) and prints a full report of every change made + why.
+2. ANALYSES the cleaned data (most common values, averages, group patterns).
+3. RUNS deeper statistical tests (correlation, ANOVA, t-test, chi-square,
+   multiple regression) using scipy where available.
+4. CHARTS the results (bar, pie, line + 3 bonus charts), all properly
+   labelled and saved as PNG files.
+5. LETS THE USER interact with the cleaned data through a simple text menu
+   (filter by group, compare groups, export cleaned data, etc.).
+ 
+ROBUSTNESS PHILOSOPHY
+----------------------
+Nothing in this script should ever crash with an unhandled traceback:
+  - Every stage that can fail (file I/O, type conversion, plotting, stats,
+    user input) is wrapped in try/except with a sensible fallback.
+  - If a library (seaborn / scipy) isn't installed, the script degrades
+    gracefully instead of stopping.
+  - If the script is run with no keyboard attached (e.g. auto-marking /
+    CI pipelines), it detects this and skips the interactive menu instead
+    of hanging or throwing EOFError.
+  - User input is always validated in a loop; bad input just asks again.
+ 
+HOW TO RUN
+----------
+    python ai_student_impact_analysis.py
+    python ai_student_impact_analysis.py --file my_data.csv
+    python ai_student_impact_analysis.py --no-interactive --no-show
+=============================================================================
+"""
+
 import os
 import sys
 import argparse
