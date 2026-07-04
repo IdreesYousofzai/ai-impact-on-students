@@ -492,6 +492,7 @@ def clean_data(df):
 # =========================================================================
 # STAGE 3: EXPLORATORY ANALYSIS
 # =========================================================================
+
 def explore_data(df):
     """Prints summary stats, most-common values, and key group patterns."""
     section("EXPLORATORY DATA ANALYSIS")
