@@ -136,6 +136,7 @@ def section(title):
     print(f"\n{bar}\n {title}\n{bar}")
 
 
+
 def safe_div(a, b):
     """Division that returns NaN instead of raising on a divide-by-zero."""
     try:
