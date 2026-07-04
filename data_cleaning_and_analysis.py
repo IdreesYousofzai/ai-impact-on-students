@@ -192,6 +192,7 @@ def ask(prompt, valid_choices=None, cast=str, default=None):
 # =========================================================================
 # STAGE 1: LOAD
 # =========================================================================
+
 def find_csv_file(cli_path):
     """Look for the dataset in a few sensible places before giving up."""
     candidates = []
