@@ -394,6 +394,7 @@ def clean_data(df):
                            f"(an identifier can't be reasonably imputed).")
         df["Student_ID"] = df["Student_ID"].astype("int64")
 
+ 
     fill_log = {}
     for col in df.columns:
         n_missing = df[col].isna().sum()
