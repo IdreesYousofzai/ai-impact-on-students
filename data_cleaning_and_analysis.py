@@ -386,6 +386,7 @@ def clean_data(df):
     # (robust to outliers, unlike the mean). Every other categorical column
     # is filled with the column MODE (most common value). All fills are
     # counted and reported per column.
+ 
     if "Student_ID" in df.columns:
         missing_id = df["Student_ID"].isna().sum()
         if missing_id:
