@@ -28,7 +28,6 @@
 * **Robustness:** Engineered with error handling for every major step; the script degrades gracefully if optional libraries are missing.
 
 ---
-
 ## Requirements
 
 The script is built to be efficient. While it runs on base Python, the following libraries are recommended for full functionality:
