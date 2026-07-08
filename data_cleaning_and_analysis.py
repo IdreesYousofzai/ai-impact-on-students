@@ -580,6 +580,7 @@ def explore_data(df):
 # =========================================================================
 # STAGE 4: DEEPER STATISTICAL ANALYSIS
 # =========================================================================
+
 def cohend(a, b):
     """Cohen's d effect size for two independent samples."""
     a, b = np.asarray(a, dtype=float), np.asarray(b, dtype=float)
