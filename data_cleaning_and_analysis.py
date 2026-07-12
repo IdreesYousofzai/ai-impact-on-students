@@ -45,8 +45,6 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
-
-
 # -----------------------------------------------------------------------
 # OPTIONAL LIBRARIES - the script must still run even if these are missing
 # -----------------------------------------------------------------------
