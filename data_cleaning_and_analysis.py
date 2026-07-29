@@ -1024,7 +1024,6 @@ def menu_filtered_charts(df):
     chart_line_hours_by_year(subset, sub_outdir)
     print(f"Done. Check '{sub_outdir}/'.")
 
-
 def menu_export_cleaned(df):
     filename = ask("Filename to export to (e.g. cleaned_data.csv): ",
                     cast=str, default="cleaned_ai_student_data.csv")
@@ -1037,6 +1036,7 @@ def menu_export_cleaned(df):
         print(f"Exported cleaned dataset to '{filename}' ({len(df):,} rows).")
     except Exception as e:
         print(f"Could not export the file: {e}")
+
 
 
 def run_interactive_menu(df, cleaning_report):
