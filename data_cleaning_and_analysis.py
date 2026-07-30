@@ -950,6 +950,7 @@ def menu_filter_summary(df):
     print(subset[numeric_cols].mean(numeric_only=True).round(3).to_string())
 
 
+
 def menu_compare_groups(df):
     options = [c for c in EXPECTED_CATEGORIES if c in df.columns]
     print("\nCompare two groups within which column?")
