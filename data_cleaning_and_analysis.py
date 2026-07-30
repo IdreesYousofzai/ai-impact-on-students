@@ -749,6 +749,7 @@ def statistical_analysis(df):
 # =========================================================================
 # STAGE 5: VISUALISATIONS
 # =========================================================================
+
 def ensure_chart_dir():
     try:
         os.makedirs(CHART_DIR, exist_ok=True)
