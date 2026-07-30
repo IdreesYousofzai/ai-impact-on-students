@@ -792,6 +792,7 @@ def chart_bar_gpa_change_by_major(df, outdir):
         print(f"  Bar chart skipped due to an error: {e}")
 
 
+
 def chart_pie_burnout_distribution(df, outdir):
     """REQUIRED CHART 2/3: Pie chart - distribution of burnout risk levels."""
     if "Burnout_Risk_Level" not in df.columns:
